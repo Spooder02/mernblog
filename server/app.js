@@ -1,6 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-import config from './config';
+import config from './config/index.js';
 
 const app = express();
 const { MONGO_URI } = config;
